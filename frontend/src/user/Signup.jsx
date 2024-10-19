@@ -49,7 +49,8 @@ const Signup = () => {
     } catch (error) {
       console.error("Error signing up:", error);
       setError(error.response?.data?.detail || "An error occurred");
-    } finally {
+    }
+    finally {
       setLoading(false); // Always reset loading state
     }
   };
@@ -194,9 +195,9 @@ const Signup = () => {
             required
           />
         </div>
-        <button className="login">
-          {loading ? "Loading ..." : "SignUp"}
-        </button>
+        <button type="submit" className={styles.submitButton} disabled={loading}>
+            {loading ? "Loading ..." : "SignUp"}
+          </button>
 
         <div>
           <p className="signupText">
