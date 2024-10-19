@@ -201,8 +201,6 @@ const Signup = () => {
             !password ||
             !first_name ||
             !last_name ||
-            !email ||
-            !password ||
             !state ||
             !country ||
             !city_or_town ||
