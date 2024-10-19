@@ -194,22 +194,7 @@ const Signup = () => {
             required
           />
         </div>
-        <button
-          className="login"
-          disabled={
-            !email ||
-            !password ||
-            !first_name ||
-            !last_name ||
-            !state ||
-            !country ||
-            !city_or_town ||
-            !local_government ||
-            !nearest_bus_stop ||
-            !house_address ||
-            !loading
-          }
-        >
+        <button className="login">
           {loading ? "Loading ..." : "SignUp"}
         </button>
 
