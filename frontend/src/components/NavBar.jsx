@@ -47,7 +47,7 @@ const NavBar = ({ category }) => {
       {/* Desktop View */}
       <div className={styles.topNav}>
         <div className={styles.imgContainer}>
-          <img src={logo} alt="logo" className={styles.logo} />
+          <Link to="/"><img src={logo} alt="logo" className={styles.logo} /></Link>
         </div>
         <div>
           <form onSubmit={handleSearchSubmit}>
@@ -86,7 +86,7 @@ const NavBar = ({ category }) => {
       <nav className={styles.navigation}>
         <div className={styles.flexx}>
           <div className={styles.navLogo}>
-            <img src={logo} alt="logo" className={styles.logoNav} />
+            <Link to="/"><img src={logo} alt="logo" className={styles.logoNav} /></Link>
           </div>
 
           <ul
