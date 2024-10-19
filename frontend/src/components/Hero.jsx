@@ -45,12 +45,12 @@ const Hero = () => {
             backgroundSize: "cover",
           }}
         >
-          <div className={styles.contHeight}>
+          {/* <div className={styles.contHeight}>
             <div className={styles.content}>
               <h1 className={styles.title}>{slide.title}</h1>
               <p className={styles.description}>{slide.description}</p>
             </div>
-          </div>
+          </div> */}
         </div>
       ))}
     </div>
