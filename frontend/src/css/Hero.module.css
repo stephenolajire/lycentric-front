@@ -38,6 +38,10 @@ body{
   opacity: 1;
 }
 
+.contHeight{
+  height: 20rem;
+}
+
 .content {
   width: 40%;
   height: 20rem;
@@ -82,7 +86,11 @@ body{
   }
 
   .content{
-    width:17rem ;
     width: 90%;
+    height: 20rem;
+  }
+
+  .contHeight{
+    height: 30rem;
   }
 }
