@@ -20,7 +20,7 @@ body{
 
 .contHeight {
   width: 100%;
-  height: 40rem;
+  height: 20rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +41,7 @@ body{
 }
 
 .content {
-  width: 50%;
+  width: 60%;
   height: 20rem;
 }
 
