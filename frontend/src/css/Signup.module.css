@@ -17,6 +17,13 @@
   padding-top: -1rem;
 }
 
+.error{
+  color: red;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
 .lycen{
   color: purple;
   font-size: 3rem;
