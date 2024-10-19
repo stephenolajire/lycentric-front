@@ -38,10 +38,6 @@ body{
   opacity: 1;
 }
 
-.contHeight{
-  height: 20rem;
-}
-
 .content {
   width: 40%;
   height: 20rem;
@@ -64,7 +60,7 @@ body{
 
 @media (max-width: 768px) {
   .title {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .description {
@@ -86,12 +82,7 @@ body{
   }
 
   .content{
+    /* width:17rem ; */
     width: 90%;
-    height: 20rem;
-    margin-top: 2rem;
-  }
-
-  .contHeight{
-    height: 30rem;
   }
 }
